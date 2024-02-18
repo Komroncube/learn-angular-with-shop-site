@@ -1,8 +1,9 @@
-import * as core from '@angular/core';
+
+import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 
-@core.Component({
+@Component({
   selector: 'app-temp',
   standalone: true,
   imports: [CommonModule],
